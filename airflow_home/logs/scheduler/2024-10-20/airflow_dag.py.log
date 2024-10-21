@@ -1,0 +1,505 @@
+[2024-10-20T18:36:59.109-0300] {processor.py:186} INFO - Started process (PID=285820) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T18:36:59.110-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T18:36:59.112-0300] {logging_mixin.py:190} INFO - [2024-10-20T18:36:59.111-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T18:36:59.132-0300] {logging_mixin.py:190} INFO - [2024-10-20T18:36:59.124-0300] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/itba/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py", line 8, in <module>
+    import cheapshark  # Importar función del primer archivo
+ModuleNotFoundError: No module named 'cheapshark'
+[2024-10-20T18:36:59.133-0300] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T18:36:59.153-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.052 seconds
+[2024-10-20T18:59:50.058-0300] {processor.py:186} INFO - Started process (PID=298409) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T18:59:50.059-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T18:59:50.061-0300] {logging_mixin.py:190} INFO - [2024-10-20T18:59:50.060-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T18:59:50.080-0300] {logging_mixin.py:190} INFO - [2024-10-20T18:59:50.072-0300] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/itba/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py", line 8, in <module>
+    import cheapshark  # Importar función del primer archivo
+ModuleNotFoundError: No module named 'cheapshark'
+[2024-10-20T18:59:50.081-0300] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T18:59:50.100-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.049 seconds
+[2024-10-20T19:02:19.594-0300] {processor.py:186} INFO - Started process (PID=299734) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:02:19.595-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:02:19.597-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:02:19.596-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:02:19.615-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:02:19.608-0300] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/itba/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py", line 8, in <module>
+    import cheapshark  # Importar función del primer archivo
+ModuleNotFoundError: No module named 'cheapshark'
+[2024-10-20T19:02:19.616-0300] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:02:19.676-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.089 seconds
+[2024-10-20T19:03:14.049-0300] {processor.py:186} INFO - Started process (PID=300160) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:03:14.050-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:03:14.052-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:03:14.052-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:03:14.070-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:03:14.064-0300] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/itba/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py", line 8, in <module>
+    import cheapshark  # Importar función del primer archivo
+ModuleNotFoundError: No module named 'cheapshark'
+[2024-10-20T19:03:14.071-0300] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:03:14.090-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.048 seconds
+[2024-10-20T19:03:49.122-0300] {processor.py:186} INFO - Started process (PID=300438) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:03:49.123-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:03:49.125-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:03:49.125-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:03:49.142-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:03:49.136-0300] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/itba/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py", line 8, in <module>
+    import cheapshark  # Importar función del primer archivo
+ModuleNotFoundError: No module named 'cheapshark'
+[2024-10-20T19:03:49.143-0300] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:03:49.163-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.047 seconds
+[2024-10-20T19:04:24.138-0300] {processor.py:186} INFO - Started process (PID=300777) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:04:24.139-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:04:24.142-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:04:24.141-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:04:24.195-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:04:24.955-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:04:24.954-0300] {override.py:1907} INFO - Created Permission View: can read on DAG:cheapshark_to_redshift_dag
+[2024-10-20T19:04:24.978-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:04:24.978-0300] {override.py:1907} INFO - Created Permission View: can delete on DAG:cheapshark_to_redshift_dag
+[2024-10-20T19:04:24.999-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:04:24.998-0300] {override.py:1907} INFO - Created Permission View: can edit on DAG:cheapshark_to_redshift_dag
+[2024-10-20T19:04:25.031-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:04:25.030-0300] {override.py:1907} INFO - Created Permission View: can read on DAG Run:cheapshark_to_redshift_dag
+[2024-10-20T19:04:25.053-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:04:25.052-0300] {override.py:1907} INFO - Created Permission View: can delete on DAG Run:cheapshark_to_redshift_dag
+[2024-10-20T19:04:25.074-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:04:25.073-0300] {override.py:1907} INFO - Created Permission View: can create on DAG Run:cheapshark_to_redshift_dag
+[2024-10-20T19:04:25.095-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:04:25.094-0300] {override.py:1907} INFO - Created Permission View: menu access on DAG Run:cheapshark_to_redshift_dag
+[2024-10-20T19:04:25.096-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:04:25.096-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:04:25.108-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:04:25.108-0300] {dag.py:3262} INFO - Creating ORM DAG for cheapshark_to_redshift_dag
+[2024-10-20T19:04:25.120-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:04:25.120-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-20T19:04:25.161-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 1.030 seconds
+[2024-10-20T19:05:00.208-0300] {processor.py:186} INFO - Started process (PID=301244) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:05:00.209-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:05:00.210-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:05:00.210-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:05:00.254-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:05:00.268-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:05:00.268-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:05:00.286-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:05:00.286-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-20T19:05:00.315-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.114 seconds
+[2024-10-20T19:05:33.769-0300] {processor.py:186} INFO - Started process (PID=301503) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:05:33.770-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:05:33.772-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:05:33.772-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:05:33.815-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:05:33.829-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:05:33.828-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:05:33.846-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:05:33.845-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-20T19:05:33.874-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.111 seconds
+[2024-10-20T19:07:37.247-0300] {processor.py:186} INFO - Started process (PID=303392) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:07:37.248-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:07:37.250-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:07:37.250-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:07:37.293-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:07:37.307-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:07:37.306-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:07:37.324-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:07:37.323-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:07:37.353-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.112 seconds
+[2024-10-20T19:08:29.835-0300] {processor.py:186} INFO - Started process (PID=303804) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:08:29.836-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:08:29.838-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:08:29.837-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:08:29.879-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:08:29.893-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:08:29.892-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:08:29.912-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:08:29.911-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:08:29.940-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.112 seconds
+[2024-10-20T19:09:03.780-0300] {processor.py:186} INFO - Started process (PID=304099) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:09:03.781-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:09:03.783-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:09:03.783-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:09:03.825-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:09:03.841-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:09:03.840-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:09:03.858-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:09:03.857-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:09:03.886-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.113 seconds
+[2024-10-20T19:09:35.151-0300] {processor.py:186} INFO - Started process (PID=304379) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:09:35.152-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:09:35.154-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:09:35.154-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:09:35.198-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:09:35.213-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:09:35.213-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:09:35.230-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:09:35.230-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:09:35.258-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.114 seconds
+[2024-10-20T19:10:06.893-0300] {processor.py:186} INFO - Started process (PID=304655) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:10:06.894-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:10:06.896-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:10:06.896-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:10:06.937-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:10:06.950-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:10:06.950-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:10:06.967-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:10:06.966-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:10:06.995-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.108 seconds
+[2024-10-20T19:10:41.207-0300] {processor.py:186} INFO - Started process (PID=304919) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:10:41.208-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:10:41.210-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:10:41.210-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:10:41.251-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:10:41.265-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:10:41.265-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:10:41.282-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:10:41.281-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:10:41.309-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.109 seconds
+[2024-10-20T19:11:14.518-0300] {processor.py:186} INFO - Started process (PID=305182) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:11:14.519-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:11:14.521-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:11:14.520-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:11:14.565-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:11:14.578-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:11:14.578-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:11:14.595-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:11:14.595-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:11:14.624-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.113 seconds
+[2024-10-20T19:11:49.591-0300] {processor.py:186} INFO - Started process (PID=305454) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:11:49.592-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:11:49.594-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:11:49.593-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:11:49.636-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:11:49.650-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:11:49.649-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:11:49.666-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:11:49.666-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:11:49.696-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.112 seconds
+[2024-10-20T19:12:24.615-0300] {processor.py:186} INFO - Started process (PID=305725) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:12:24.616-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:12:24.618-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:12:24.617-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:12:24.660-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:12:24.674-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:12:24.673-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:12:24.690-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:12:24.690-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:12:24.718-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.110 seconds
+[2024-10-20T19:12:57.311-0300] {processor.py:186} INFO - Started process (PID=305982) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:12:57.312-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:12:57.314-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:12:57.313-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:12:57.353-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:12:57.367-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:12:57.366-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:12:57.384-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:12:57.383-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:12:57.412-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.108 seconds
+[2024-10-20T19:13:28.532-0300] {processor.py:186} INFO - Started process (PID=306230) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:13:28.533-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:13:28.535-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:13:28.534-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:13:28.577-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:13:28.591-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:13:28.590-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:13:28.608-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:13:28.608-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:13:28.636-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.111 seconds
+[2024-10-20T19:14:00.547-0300] {processor.py:186} INFO - Started process (PID=306481) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:14:00.549-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:14:00.551-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:14:00.550-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:14:00.593-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:14:00.608-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:14:00.608-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:14:00.626-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:14:00.625-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:14:00.655-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.115 seconds
+[2024-10-20T19:14:35.221-0300] {processor.py:186} INFO - Started process (PID=306751) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:14:35.222-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:14:35.224-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:14:35.224-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:14:35.265-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:14:35.279-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:14:35.279-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:14:35.296-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:14:35.296-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:14:35.324-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.110 seconds
+[2024-10-20T19:15:10.814-0300] {processor.py:186} INFO - Started process (PID=307052) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:15:10.815-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:15:10.817-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:15:10.817-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:15:10.859-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:15:10.873-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:15:10.873-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:15:10.890-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:15:10.889-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:15:10.919-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.111 seconds
+[2024-10-20T19:15:45.178-0300] {processor.py:186} INFO - Started process (PID=307321) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:15:45.179-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:15:45.182-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:15:45.181-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:15:45.222-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:15:45.236-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:15:45.236-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:15:45.253-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:15:45.252-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:15:45.281-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.109 seconds
+[2024-10-20T19:16:18.408-0300] {processor.py:186} INFO - Started process (PID=307578) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:16:18.409-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:16:18.411-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:16:18.411-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:16:18.453-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:16:18.469-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:16:18.468-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:16:18.486-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:16:18.485-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:16:18.513-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.111 seconds
+[2024-10-20T19:16:53.498-0300] {processor.py:186} INFO - Started process (PID=307856) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:16:53.498-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:16:53.501-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:16:53.500-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:16:53.542-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:16:53.556-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:16:53.556-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:16:53.573-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:16:53.572-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:16:53.607-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.117 seconds
+[2024-10-20T19:17:30.867-0300] {processor.py:186} INFO - Started process (PID=308146) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:17:30.868-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:17:30.869-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:17:30.869-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:17:30.911-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:17:30.925-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:17:30.924-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:17:30.942-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:17:30.941-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:17:30.970-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.111 seconds
+[2024-10-20T19:18:09.266-0300] {processor.py:186} INFO - Started process (PID=308444) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:18:09.267-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:18:09.269-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:18:09.269-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:18:09.310-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:18:09.324-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:18:09.323-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:18:09.340-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:18:09.340-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:18:09.368-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.109 seconds
+[2024-10-20T19:18:43.556-0300] {processor.py:186} INFO - Started process (PID=308714) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:18:43.557-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:18:43.559-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:18:43.559-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:18:43.601-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:18:43.615-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:18:43.614-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:18:43.632-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:18:43.632-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:18:43.660-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.112 seconds
+[2024-10-20T19:19:20.676-0300] {processor.py:186} INFO - Started process (PID=308999) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:19:20.677-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:19:20.679-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:19:20.678-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:19:20.720-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:19:20.734-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:19:20.733-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:19:20.751-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:19:20.751-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:19:20.780-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.111 seconds
+[2024-10-20T19:19:57.279-0300] {processor.py:186} INFO - Started process (PID=309312) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:19:57.280-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:19:57.282-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:19:57.281-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:19:57.323-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:19:57.336-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:19:57.336-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:19:57.353-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:19:57.352-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:19:57.380-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.108 seconds
+[2024-10-20T19:20:29.953-0300] {processor.py:186} INFO - Started process (PID=309568) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:20:29.954-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:20:29.956-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:20:29.955-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:20:29.997-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:20:30.013-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:20:30.012-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:20:30.031-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:20:30.030-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:20:30.059-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.114 seconds
+[2024-10-20T19:21:04.837-0300] {processor.py:186} INFO - Started process (PID=309910) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:21:04.838-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:21:04.840-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:21:04.839-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:21:04.882-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:21:04.896-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:21:04.895-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:21:04.912-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:21:04.912-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:21:04.942-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.112 seconds
+[2024-10-20T19:21:38.688-0300] {processor.py:186} INFO - Started process (PID=310172) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:21:38.689-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:21:38.691-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:21:38.690-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:21:38.733-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:21:38.747-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:21:38.747-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:21:38.764-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:21:38.764-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:21:38.796-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.115 seconds
+[2024-10-20T19:22:11.549-0300] {processor.py:186} INFO - Started process (PID=310518) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:22:11.550-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:22:11.552-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:22:11.552-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:22:11.593-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:22:11.607-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:22:11.607-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:22:11.624-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:22:11.623-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:22:11.652-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.109 seconds
+[2024-10-20T19:22:45.474-0300] {processor.py:186} INFO - Started process (PID=310785) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:22:45.475-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:22:45.477-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:22:45.476-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:22:45.518-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:22:45.531-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:22:45.531-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:22:45.548-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:22:45.548-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:22:45.576-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.109 seconds
+[2024-10-20T19:23:17.429-0300] {processor.py:186} INFO - Started process (PID=311045) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:23:17.430-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:23:17.432-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:23:17.431-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:23:17.482-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:23:17.501-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:23:17.500-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:23:17.524-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:23:17.523-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:23:17.561-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.139 seconds
+[2024-10-20T19:24:16.983-0300] {processor.py:186} INFO - Started process (PID=312029) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:24:16.984-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:24:16.986-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:24:16.986-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:24:17.031-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:24:17.048-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:24:17.048-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:24:17.069-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:24:17.068-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:24:17.102-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.127 seconds
+[2024-10-20T19:25:55.951-0300] {processor.py:186} INFO - Started process (PID=313330) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:25:55.952-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:25:55.954-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:25:55.954-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:25:56.000-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:25:56.015-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:25:56.014-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:25:56.034-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:25:56.033-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:25:56.067-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.124 seconds
+[2024-10-20T19:27:01.713-0300] {processor.py:186} INFO - Started process (PID=314021) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:27:01.714-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:27:01.716-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:27:01.716-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:27:01.762-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:27:01.777-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:27:01.777-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:27:01.796-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:27:01.795-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:27:01.830-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.124 seconds
+[2024-10-20T19:27:38.900-0300] {processor.py:186} INFO - Started process (PID=314511) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:27:38.901-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:27:38.903-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:27:38.902-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:27:38.944-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:27:38.958-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:27:38.958-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:27:38.975-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:27:38.975-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:27:39.003-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.111 seconds
+[2024-10-20T19:28:12.733-0300] {processor.py:186} INFO - Started process (PID=314968) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:28:12.734-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:28:12.736-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:28:12.735-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:28:12.778-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:28:12.792-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:28:12.791-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:28:12.808-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:28:12.808-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:28:12.836-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.110 seconds
+[2024-10-20T19:28:44.335-0300] {processor.py:186} INFO - Started process (PID=315274) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:28:44.336-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:28:44.338-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:28:44.338-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:28:44.381-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:28:44.395-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:28:44.394-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:28:44.412-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:28:44.411-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:28:44.439-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.111 seconds
+[2024-10-20T19:29:17.491-0300] {processor.py:186} INFO - Started process (PID=315654) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:29:17.492-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:29:17.494-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:29:17.494-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:29:17.536-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:29:17.550-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:29:17.549-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:29:17.566-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:29:17.566-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:29:17.594-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.109 seconds
+[2024-10-20T19:29:54.181-0300] {processor.py:186} INFO - Started process (PID=316071) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:29:54.182-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:29:54.184-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:29:54.184-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:29:54.228-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:29:54.243-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:29:54.243-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:29:54.260-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:29:54.260-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:29:54.290-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.116 seconds
+[2024-10-20T19:30:30.760-0300] {processor.py:186} INFO - Started process (PID=316356) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:30:30.761-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:30:30.764-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:30:30.763-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:30:30.810-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:30:30.827-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:30:30.826-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:30:30.846-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:30:30.845-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:30:30.880-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.127 seconds
+[2024-10-20T19:31:03.458-0300] {processor.py:186} INFO - Started process (PID=316612) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:31:03.459-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:31:03.461-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:31:03.461-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:31:03.504-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:31:03.520-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:31:03.520-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:31:03.538-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:31:03.537-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:31:03.589-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.139 seconds
+[2024-10-20T19:31:36.380-0300] {processor.py:186} INFO - Started process (PID=316867) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:31:36.381-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:31:36.383-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:31:36.382-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:31:36.424-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:31:36.438-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:31:36.437-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:31:36.455-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:31:36.454-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:31:36.483-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.110 seconds
+[2024-10-20T19:32:11.499-0300] {processor.py:186} INFO - Started process (PID=317145) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:32:11.500-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:32:11.502-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:32:11.501-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:32:11.543-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:32:11.557-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:32:11.557-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:32:11.574-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:32:11.573-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:32:11.603-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.111 seconds
+[2024-10-20T19:32:44.688-0300] {processor.py:186} INFO - Started process (PID=317403) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:32:44.690-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:32:44.692-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:32:44.691-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:32:44.733-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:32:44.748-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:32:44.747-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:32:44.766-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:32:44.765-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:32:44.795-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.113 seconds
+[2024-10-20T19:33:18.243-0300] {processor.py:186} INFO - Started process (PID=317721) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:33:18.244-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:33:18.246-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:33:18.245-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:33:18.290-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:33:18.305-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:33:18.304-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:33:18.322-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:33:18.321-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:33:18.349-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.113 seconds
+[2024-10-20T19:33:51.225-0300] {processor.py:186} INFO - Started process (PID=318062) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:33:51.226-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:33:51.228-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:33:51.227-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:33:51.268-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:33:51.282-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:33:51.282-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:33:51.299-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:33:51.298-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:33:51.326-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.108 seconds
+[2024-10-20T19:34:24.611-0300] {processor.py:186} INFO - Started process (PID=318433) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:34:24.612-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:34:24.614-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:34:24.613-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:34:24.657-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:34:24.672-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:34:24.671-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:34:24.688-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:34:24.687-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:34:24.715-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.111 seconds
+[2024-10-20T19:34:59.809-0300] {processor.py:186} INFO - Started process (PID=318819) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:34:59.810-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:34:59.812-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:34:59.812-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:34:59.853-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:34:59.867-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:34:59.867-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:34:59.884-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:34:59.883-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:34:59.913-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.111 seconds
+[2024-10-20T19:35:33.651-0300] {processor.py:186} INFO - Started process (PID=319149) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:35:33.652-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:35:33.654-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:35:33.654-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:35:33.696-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:35:33.710-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:35:33.709-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:35:33.727-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:35:33.726-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:35:33.755-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.111 seconds
+[2024-10-20T19:36:08.702-0300] {processor.py:186} INFO - Started process (PID=319420) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:36:08.703-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:36:08.705-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:36:08.705-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:36:08.745-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:36:08.758-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:36:08.758-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:36:08.775-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:36:08.774-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:36:08.802-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.106 seconds
+[2024-10-20T19:36:43.740-0300] {processor.py:186} INFO - Started process (PID=319695) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:36:43.741-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:36:43.743-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:36:43.743-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:36:43.784-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:36:43.798-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:36:43.797-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:36:43.814-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:36:43.814-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:36:43.844-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.111 seconds
+[2024-10-20T19:37:18.182-0300] {processor.py:186} INFO - Started process (PID=319961) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:37:18.183-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:37:18.185-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:37:18.184-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:37:18.226-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:37:18.240-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:37:18.239-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:37:18.257-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:37:18.256-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:37:18.286-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.111 seconds
+[2024-10-20T19:37:51.048-0300] {processor.py:186} INFO - Started process (PID=320223) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:37:51.049-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:37:51.051-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:37:51.050-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:37:51.091-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:37:51.104-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:37:51.104-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:37:51.121-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:37:51.121-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:37:51.149-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.108 seconds
+[2024-10-20T19:38:24.303-0300] {processor.py:186} INFO - Started process (PID=320480) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:38:24.304-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:38:24.306-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:38:24.306-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:38:24.348-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:38:24.362-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:38:24.361-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:38:24.380-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:38:24.379-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:38:24.409-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.112 seconds
+[2024-10-20T19:38:56.014-0300] {processor.py:186} INFO - Started process (PID=320731) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:38:56.015-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:38:56.017-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:38:56.016-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:38:56.060-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:38:56.075-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:38:56.074-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:38:56.092-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:38:56.092-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:38:56.121-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.114 seconds
+[2024-10-20T19:39:29.952-0300] {processor.py:186} INFO - Started process (PID=320992) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:39:29.953-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:39:29.955-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:39:29.954-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:39:29.996-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:39:30.010-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:39:30.010-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:39:30.027-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:39:30.027-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:39:30.056-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.112 seconds
+[2024-10-20T19:40:03.476-0300] {processor.py:186} INFO - Started process (PID=321436) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:40:03.477-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:40:03.479-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:40:03.479-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:40:03.520-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:40:03.533-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:40:03.533-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:40:03.550-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:40:03.550-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:40:03.577-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.108 seconds
+[2024-10-20T19:40:35.517-0300] {processor.py:186} INFO - Started process (PID=321882) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:40:35.518-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:40:35.520-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:40:35.520-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:40:35.562-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:40:35.577-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:40:35.576-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:40:35.594-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:40:35.593-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:40:35.622-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.112 seconds
+[2024-10-20T19:41:09.073-0300] {processor.py:186} INFO - Started process (PID=322152) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:41:09.074-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:41:09.076-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:41:09.076-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:41:09.118-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:41:09.132-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:41:09.131-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:41:09.149-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:41:09.148-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:41:09.178-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.111 seconds
+[2024-10-20T19:41:43.344-0300] {processor.py:186} INFO - Started process (PID=322421) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:41:43.345-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:41:43.347-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:41:43.346-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:41:43.387-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:41:43.401-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:41:43.400-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:41:43.418-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:41:43.417-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:41:43.446-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.109 seconds
+[2024-10-20T19:42:17.067-0300] {processor.py:186} INFO - Started process (PID=322758) to work on /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:42:17.068-0300] {processor.py:914} INFO - Processing file /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py for tasks to queue
+[2024-10-20T19:42:17.070-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:42:17.069-0300] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:42:17.114-0300] {processor.py:925} INFO - DAG(s) 'cheapshark_to_redshift_dag' retrieved from /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py
+[2024-10-20T19:42:17.130-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:42:17.129-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-20T19:42:17.148-0300] {logging_mixin.py:190} INFO - [2024-10-20T19:42:17.147-0300] {dag.py:4180} INFO - Setting next_dagrun for cheapshark_to_redshift_dag to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-20T19:42:17.177-0300] {processor.py:208} INFO - Processing /mnt/c/Users/Pato_/OneDrive/Documentos/ITBA/PYTHON_DATA_APP/python_data_app_itba/airflow_home/dags/airflow_dag.py took 0.118 seconds

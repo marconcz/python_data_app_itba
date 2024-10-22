@@ -6,10 +6,10 @@ import pandas as pd
 
 # Parámetros de conexión
 database = 'pda'
-host = 'redshift-pda-cluster.cnuimntownzt.us-east-2.redshift.amazonaws.com'
+host = ''
 port = 5439
-user = '2024_patricio_nahuel_perrone'
-password = 'F6@!Q2^9$Lx'
+user = ''
+password = ''
 
 # Crear el URL de conexión
 connection_string = f"redshift+psycopg2://{user}:{quote_plus(password)}@{host}:{port}/{database}"
